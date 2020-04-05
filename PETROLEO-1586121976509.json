@@ -1,0 +1,6025 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": 3,
+  "links": [],
+  "panels": [
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 7,
+        "x": 0,
+        "y": 0
+      },
+      "id": 20,
+      "links": [],
+      "options": {
+        "displayMode": "gradient",
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "rgb(117, 105, 191)",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 80
+              }
+            ],
+            "unit": "celsius"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "vertical"
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "COSTA RICA"
+              ],
+              "text": "setAlias(COSTA RICA)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-CR"
+          },
+          "item": {
+            "filter": "Temperatura"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "D",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "CHAPADAO"
+              ],
+              "text": "setAlias(CHAPADAO)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-CHA"
+          },
+          "item": {
+            "filter": "Temperatura"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "C",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "TAQUARI"
+              ],
+              "text": "setAlias(TAQUARI)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-A.T"
+          },
+          "item": {
+            "filter": "Temperatura"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "B",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "G.N.H"
+              ],
+              "text": "setAlias(G.N.H)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-G.N.H"
+          },
+          "item": {
+            "filter": "Temperatura"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "E",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "SAO FELIX"
+              ],
+              "text": "setAlias(SAO FELIX)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-S.F"
+          },
+          "item": {
+            "filter": "Temperatura"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "F",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "",
+      "type": "bargauge"
+    },
+    {
+      "colors": [
+        "rgba(245, 54, 54, 0.9)",
+        "rgba(237, 129, 40, 0.89)",
+        "rgba(50, 172, 45, 0.97)"
+      ],
+      "datasource": null,
+      "decimals": 0,
+      "fontSizes": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70
+      ],
+      "fontTypes": [
+        "Arial",
+        "Avant Garde",
+        "Bookman",
+        "Consolas",
+        "Courier",
+        "Courier New",
+        "Garamond",
+        "Helvetica",
+        "Open Sans",
+        "Palatino",
+        "Times",
+        "Times New Roman",
+        "Verdana"
+      ],
+      "format": "percent",
+      "gauge": {
+        "animateNeedleValueTransition": true,
+        "animateNeedleValueTransitionSpeed": 100,
+        "edgeWidth": 0.05,
+        "gaugeRadius": 0,
+        "gaugeUnits": "",
+        "innerCol": "rgb(5, 5, 5)",
+        "labelFontSize": 18,
+        "maxNeedleAngle": 320,
+        "maxTickAngle": 300,
+        "maxValue": 100,
+        "minValue": 0,
+        "needleCol": "#5794F2",
+        "needleLengthNeg": 0.2,
+        "needleTickGap": 0.05,
+        "needleWidth": 5,
+        "outerEdgeCol": "rgb(252, 252, 252)",
+        "padding": 0.05,
+        "pivotCol": "#5794F2",
+        "pivotRadius": 0.1,
+        "show": false,
+        "showLowerThresholdRange": false,
+        "showMiddleThresholdRange": true,
+        "showThresholdColorOnValue": false,
+        "showThresholdOnGauge": false,
+        "showUpperThresholdRange": true,
+        "tickColMaj": "#F2495C",
+        "tickColMin": "#5794F2",
+        "tickEdgeGap": 0.05,
+        "tickFont": "Verdana",
+        "tickLabelCol": "#5794F2",
+        "tickLengthMaj": 0.15,
+        "tickLengthMin": 0.05,
+        "tickSpaceMajVal": 10,
+        "tickSpaceMinVal": 1,
+        "tickWidthMaj": 5,
+        "tickWidthMin": 1,
+        "ticknessGaugeBasis": 200,
+        "unitsFont": "Verdana",
+        "unitsLabelCol": "rgb(255, 255, 255)",
+        "unitsLabelFontSize": 58,
+        "valueYOffset": 0,
+        "zeroNeedleAngle": 40,
+        "zeroTickAngle": 60
+      },
+      "gaugeDivId": "d3gauge_svg_35",
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 7,
+        "y": 0
+      },
+      "id": 35,
+      "mappingType": 1,
+      "mappingTypes": [
+        {
+          "name": "value to text",
+          "value": 1
+        },
+        {
+          "name": "range to text",
+          "value": 2
+        }
+      ],
+      "operatorName": "current",
+      "operatorNameOptions": [
+        "min",
+        "max",
+        "avg",
+        "current",
+        "total",
+        "name"
+      ],
+      "options": {},
+      "rangeMaps": [
+        {
+          "from": "null",
+          "text": "N/A",
+          "to": "null"
+        }
+      ],
+      "svgContainer": {},
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "Zabbix servers"
+          },
+          "host": {
+            "filter": "Zabbix server"
+          },
+          "item": {
+            "filter": "Memory utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": "",
+      "tickMaps": [],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "ZABBIX RAM USO",
+      "transparent": true,
+      "type": "briangann-gauge-panel",
+      "unitFormats": [
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(0,0)",
+              "text": "none",
+              "value": "none"
+            },
+            {
+              "click": "menuItemSelected(0,1)",
+              "text": "short",
+              "value": "short"
+            },
+            {
+              "click": "menuItemSelected(0,2)",
+              "text": "percent (0-100)",
+              "value": "percent"
+            },
+            {
+              "click": "menuItemSelected(0,3)",
+              "text": "percent (0.0-1.0)",
+              "value": "percentunit"
+            },
+            {
+              "click": "menuItemSelected(0,4)",
+              "text": "Humidity (%H)",
+              "value": "humidity"
+            },
+            {
+              "click": "menuItemSelected(0,5)",
+              "text": "decibel",
+              "value": "dB"
+            },
+            {
+              "click": "menuItemSelected(0,6)",
+              "text": "hexadecimal (0x)",
+              "value": "hex0x"
+            },
+            {
+              "click": "menuItemSelected(0,7)",
+              "text": "hexadecimal",
+              "value": "hex"
+            },
+            {
+              "click": "menuItemSelected(0,8)",
+              "text": "scientific notation",
+              "value": "sci"
+            },
+            {
+              "click": "menuItemSelected(0,9)",
+              "text": "locale format",
+              "value": "locale"
+            },
+            {
+              "click": "menuItemSelected(0,10)",
+              "text": "Pixels",
+              "value": "pixel"
+            }
+          ],
+          "text": "Misc"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(1,0)",
+              "text": "Meters/sec²",
+              "value": "accMS2"
+            },
+            {
+              "click": "menuItemSelected(1,1)",
+              "text": "Feet/sec²",
+              "value": "accFS2"
+            },
+            {
+              "click": "menuItemSelected(1,2)",
+              "text": "G unit",
+              "value": "accG"
+            }
+          ],
+          "text": "Acceleration"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(2,0)",
+              "text": "Degrees (°)",
+              "value": "degree"
+            },
+            {
+              "click": "menuItemSelected(2,1)",
+              "text": "Radians",
+              "value": "radian"
+            },
+            {
+              "click": "menuItemSelected(2,2)",
+              "text": "Gradian",
+              "value": "grad"
+            },
+            {
+              "click": "menuItemSelected(2,3)",
+              "text": "Arc Minutes",
+              "value": "arcmin"
+            },
+            {
+              "click": "menuItemSelected(2,4)",
+              "text": "Arc Seconds",
+              "value": "arcsec"
+            }
+          ],
+          "text": "Angle"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(3,0)",
+              "text": "Square Meters (m²)",
+              "value": "areaM2"
+            },
+            {
+              "click": "menuItemSelected(3,1)",
+              "text": "Square Feet (ft²)",
+              "value": "areaF2"
+            },
+            {
+              "click": "menuItemSelected(3,2)",
+              "text": "Square Miles (mi²)",
+              "value": "areaMI2"
+            }
+          ],
+          "text": "Area"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(4,0)",
+              "text": "FLOP/s",
+              "value": "flops"
+            },
+            {
+              "click": "menuItemSelected(4,1)",
+              "text": "MFLOP/s",
+              "value": "mflops"
+            },
+            {
+              "click": "menuItemSelected(4,2)",
+              "text": "GFLOP/s",
+              "value": "gflops"
+            },
+            {
+              "click": "menuItemSelected(4,3)",
+              "text": "TFLOP/s",
+              "value": "tflops"
+            },
+            {
+              "click": "menuItemSelected(4,4)",
+              "text": "PFLOP/s",
+              "value": "pflops"
+            },
+            {
+              "click": "menuItemSelected(4,5)",
+              "text": "EFLOP/s",
+              "value": "eflops"
+            },
+            {
+              "click": "menuItemSelected(4,6)",
+              "text": "ZFLOP/s",
+              "value": "zflops"
+            },
+            {
+              "click": "menuItemSelected(4,7)",
+              "text": "YFLOP/s",
+              "value": "yflops"
+            }
+          ],
+          "text": "Computation"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(5,0)",
+              "text": "parts-per-million (ppm)",
+              "value": "ppm"
+            },
+            {
+              "click": "menuItemSelected(5,1)",
+              "text": "parts-per-billion (ppb)",
+              "value": "conppb"
+            },
+            {
+              "click": "menuItemSelected(5,2)",
+              "text": "nanogram per cubic meter (ng/m³)",
+              "value": "conngm3"
+            },
+            {
+              "click": "menuItemSelected(5,3)",
+              "text": "nanogram per normal cubic meter (ng/Nm³)",
+              "value": "conngNm3"
+            },
+            {
+              "click": "menuItemSelected(5,4)",
+              "text": "microgram per cubic meter (μg/m³)",
+              "value": "conμgm3"
+            },
+            {
+              "click": "menuItemSelected(5,5)",
+              "text": "microgram per normal cubic meter (μg/Nm³)",
+              "value": "conμgNm3"
+            },
+            {
+              "click": "menuItemSelected(5,6)",
+              "text": "milligram per cubic meter (mg/m³)",
+              "value": "conmgm3"
+            },
+            {
+              "click": "menuItemSelected(5,7)",
+              "text": "milligram per normal cubic meter (mg/Nm³)",
+              "value": "conmgNm3"
+            },
+            {
+              "click": "menuItemSelected(5,8)",
+              "text": "gram per cubic meter (g/m³)",
+              "value": "congm3"
+            },
+            {
+              "click": "menuItemSelected(5,9)",
+              "text": "gram per normal cubic meter (g/Nm³)",
+              "value": "congNm3"
+            },
+            {
+              "click": "menuItemSelected(5,10)",
+              "text": "milligrams per decilitre (mg/dL)",
+              "value": "conmgdL"
+            },
+            {
+              "click": "menuItemSelected(5,11)",
+              "text": "millimoles per litre (mmol/L)",
+              "value": "conmmolL"
+            }
+          ],
+          "text": "Concentration"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(6,0)",
+              "text": "Dollars ($)",
+              "value": "currencyUSD"
+            },
+            {
+              "click": "menuItemSelected(6,1)",
+              "text": "Pounds (£)",
+              "value": "currencyGBP"
+            },
+            {
+              "click": "menuItemSelected(6,2)",
+              "text": "Euro (€)",
+              "value": "currencyEUR"
+            },
+            {
+              "click": "menuItemSelected(6,3)",
+              "text": "Yen (¥)",
+              "value": "currencyJPY"
+            },
+            {
+              "click": "menuItemSelected(6,4)",
+              "text": "Rubles (₽)",
+              "value": "currencyRUB"
+            },
+            {
+              "click": "menuItemSelected(6,5)",
+              "text": "Hryvnias (₴)",
+              "value": "currencyUAH"
+            },
+            {
+              "click": "menuItemSelected(6,6)",
+              "text": "Real (R$)",
+              "value": "currencyBRL"
+            },
+            {
+              "click": "menuItemSelected(6,7)",
+              "text": "Danish Krone (kr)",
+              "value": "currencyDKK"
+            },
+            {
+              "click": "menuItemSelected(6,8)",
+              "text": "Icelandic Króna (kr)",
+              "value": "currencyISK"
+            },
+            {
+              "click": "menuItemSelected(6,9)",
+              "text": "Norwegian Krone (kr)",
+              "value": "currencyNOK"
+            },
+            {
+              "click": "menuItemSelected(6,10)",
+              "text": "Swedish Krona (kr)",
+              "value": "currencySEK"
+            },
+            {
+              "click": "menuItemSelected(6,11)",
+              "text": "Czech koruna (czk)",
+              "value": "currencyCZK"
+            },
+            {
+              "click": "menuItemSelected(6,12)",
+              "text": "Swiss franc (CHF)",
+              "value": "currencyCHF"
+            },
+            {
+              "click": "menuItemSelected(6,13)",
+              "text": "Polish Złoty (PLN)",
+              "value": "currencyPLN"
+            },
+            {
+              "click": "menuItemSelected(6,14)",
+              "text": "Bitcoin (฿)",
+              "value": "currencyBTC"
+            },
+            {
+              "click": "menuItemSelected(6,15)",
+              "text": "South African Rand (R)",
+              "value": "currencyZAR"
+            },
+            {
+              "click": "menuItemSelected(6,16)",
+              "text": "Indian Rupee (₹)",
+              "value": "currencyINR"
+            }
+          ],
+          "text": "Currency"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(7,0)",
+              "text": "bits",
+              "value": "bits"
+            },
+            {
+              "click": "menuItemSelected(7,1)",
+              "text": "bytes",
+              "value": "bytes"
+            },
+            {
+              "click": "menuItemSelected(7,2)",
+              "text": "kibibytes",
+              "value": "kbytes"
+            },
+            {
+              "click": "menuItemSelected(7,3)",
+              "text": "mebibytes",
+              "value": "mbytes"
+            },
+            {
+              "click": "menuItemSelected(7,4)",
+              "text": "gibibytes",
+              "value": "gbytes"
+            },
+            {
+              "click": "menuItemSelected(7,5)",
+              "text": "tebibytes",
+              "value": "tbytes"
+            },
+            {
+              "click": "menuItemSelected(7,6)",
+              "text": "pebibytes",
+              "value": "pbytes"
+            }
+          ],
+          "text": "Data (IEC)"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(8,0)",
+              "text": "bits",
+              "value": "decbits"
+            },
+            {
+              "click": "menuItemSelected(8,1)",
+              "text": "bytes",
+              "value": "decbytes"
+            },
+            {
+              "click": "menuItemSelected(8,2)",
+              "text": "kilobytes",
+              "value": "deckbytes"
+            },
+            {
+              "click": "menuItemSelected(8,3)",
+              "text": "megabytes",
+              "value": "decmbytes"
+            },
+            {
+              "click": "menuItemSelected(8,4)",
+              "text": "gigabytes",
+              "value": "decgbytes"
+            },
+            {
+              "click": "menuItemSelected(8,5)",
+              "text": "terabytes",
+              "value": "dectbytes"
+            },
+            {
+              "click": "menuItemSelected(8,6)",
+              "text": "petabytes",
+              "value": "decpbytes"
+            }
+          ],
+          "text": "Data (Metric)"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(9,0)",
+              "text": "packets/sec",
+              "value": "pps"
+            },
+            {
+              "click": "menuItemSelected(9,1)",
+              "text": "bits/sec",
+              "value": "bps"
+            },
+            {
+              "click": "menuItemSelected(9,2)",
+              "text": "bytes/sec",
+              "value": "Bps"
+            },
+            {
+              "click": "menuItemSelected(9,3)",
+              "text": "kilobytes/sec",
+              "value": "KBs"
+            },
+            {
+              "click": "menuItemSelected(9,4)",
+              "text": "kilobits/sec",
+              "value": "Kbits"
+            },
+            {
+              "click": "menuItemSelected(9,5)",
+              "text": "megabytes/sec",
+              "value": "MBs"
+            },
+            {
+              "click": "menuItemSelected(9,6)",
+              "text": "megabits/sec",
+              "value": "Mbits"
+            },
+            {
+              "click": "menuItemSelected(9,7)",
+              "text": "gigabytes/sec",
+              "value": "GBs"
+            },
+            {
+              "click": "menuItemSelected(9,8)",
+              "text": "gigabits/sec",
+              "value": "Gbits"
+            },
+            {
+              "click": "menuItemSelected(9,9)",
+              "text": "terabytes/sec",
+              "value": "TBs"
+            },
+            {
+              "click": "menuItemSelected(9,10)",
+              "text": "terabits/sec",
+              "value": "Tbits"
+            },
+            {
+              "click": "menuItemSelected(9,11)",
+              "text": "petabytes/sec",
+              "value": "PBs"
+            },
+            {
+              "click": "menuItemSelected(9,12)",
+              "text": "petabits/sec",
+              "value": "Pbits"
+            }
+          ],
+          "text": "Data Rate"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(10,0)",
+              "text": "YYYY-MM-DD HH:mm:ss",
+              "value": "dateTimeAsIso"
+            },
+            {
+              "click": "menuItemSelected(10,1)",
+              "text": "DD/MM/YYYY h:mm:ss a",
+              "value": "dateTimeAsUS"
+            },
+            {
+              "click": "menuItemSelected(10,2)",
+              "text": "From Now",
+              "value": "dateTimeFromNow"
+            }
+          ],
+          "text": "Date & Time"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(11,0)",
+              "text": "Watt (W)",
+              "value": "watt"
+            },
+            {
+              "click": "menuItemSelected(11,1)",
+              "text": "Kilowatt (kW)",
+              "value": "kwatt"
+            },
+            {
+              "click": "menuItemSelected(11,2)",
+              "text": "Megawatt (MW)",
+              "value": "megwatt"
+            },
+            {
+              "click": "menuItemSelected(11,3)",
+              "text": "Milliwatt (mW)",
+              "value": "mwatt"
+            },
+            {
+              "click": "menuItemSelected(11,4)",
+              "text": "Watt per square meter (W/m²)",
+              "value": "Wm2"
+            },
+            {
+              "click": "menuItemSelected(11,5)",
+              "text": "Volt-ampere (VA)",
+              "value": "voltamp"
+            },
+            {
+              "click": "menuItemSelected(11,6)",
+              "text": "Kilovolt-ampere (kVA)",
+              "value": "kvoltamp"
+            },
+            {
+              "click": "menuItemSelected(11,7)",
+              "text": "Volt-ampere reactive (var)",
+              "value": "voltampreact"
+            },
+            {
+              "click": "menuItemSelected(11,8)",
+              "text": "Kilovolt-ampere reactive (kvar)",
+              "value": "kvoltampreact"
+            },
+            {
+              "click": "menuItemSelected(11,9)",
+              "text": "Watt-hour (Wh)",
+              "value": "watth"
+            },
+            {
+              "click": "menuItemSelected(11,10)",
+              "text": "Watt-hour per Kilogram (Wh/kg)",
+              "value": "watthperkg"
+            },
+            {
+              "click": "menuItemSelected(11,11)",
+              "text": "Kilowatt-hour (kWh)",
+              "value": "kwatth"
+            },
+            {
+              "click": "menuItemSelected(11,12)",
+              "text": "Kilowatt-min (kWm)",
+              "value": "kwattm"
+            },
+            {
+              "click": "menuItemSelected(11,13)",
+              "text": "Ampere-hour (Ah)",
+              "value": "amph"
+            },
+            {
+              "click": "menuItemSelected(11,14)",
+              "text": "Kiloampere-hour (kAh)",
+              "value": "kamph"
+            },
+            {
+              "click": "menuItemSelected(11,15)",
+              "text": "Milliampere-hour (mAh)",
+              "value": "mamph"
+            },
+            {
+              "click": "menuItemSelected(11,16)",
+              "text": "Joule (J)",
+              "value": "joule"
+            },
+            {
+              "click": "menuItemSelected(11,17)",
+              "text": "Electron volt (eV)",
+              "value": "ev"
+            },
+            {
+              "click": "menuItemSelected(11,18)",
+              "text": "Ampere (A)",
+              "value": "amp"
+            },
+            {
+              "click": "menuItemSelected(11,19)",
+              "text": "Kiloampere (kA)",
+              "value": "kamp"
+            },
+            {
+              "click": "menuItemSelected(11,20)",
+              "text": "Milliampere (mA)",
+              "value": "mamp"
+            },
+            {
+              "click": "menuItemSelected(11,21)",
+              "text": "Volt (V)",
+              "value": "volt"
+            },
+            {
+              "click": "menuItemSelected(11,22)",
+              "text": "Kilovolt (kV)",
+              "value": "kvolt"
+            },
+            {
+              "click": "menuItemSelected(11,23)",
+              "text": "Millivolt (mV)",
+              "value": "mvolt"
+            },
+            {
+              "click": "menuItemSelected(11,24)",
+              "text": "Decibel-milliwatt (dBm)",
+              "value": "dBm"
+            },
+            {
+              "click": "menuItemSelected(11,25)",
+              "text": "Ohm (Ω)",
+              "value": "ohm"
+            },
+            {
+              "click": "menuItemSelected(11,26)",
+              "text": "Lumens (Lm)",
+              "value": "lumens"
+            }
+          ],
+          "text": "Energy"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(12,0)",
+              "text": "Gallons/min (gpm)",
+              "value": "flowgpm"
+            },
+            {
+              "click": "menuItemSelected(12,1)",
+              "text": "Cubic meters/sec (cms)",
+              "value": "flowcms"
+            },
+            {
+              "click": "menuItemSelected(12,2)",
+              "text": "Cubic feet/sec (cfs)",
+              "value": "flowcfs"
+            },
+            {
+              "click": "menuItemSelected(12,3)",
+              "text": "Cubic feet/min (cfm)",
+              "value": "flowcfm"
+            },
+            {
+              "click": "menuItemSelected(12,4)",
+              "text": "Litre/hour",
+              "value": "litreh"
+            },
+            {
+              "click": "menuItemSelected(12,5)",
+              "text": "Litre/min (L/min)",
+              "value": "flowlpm"
+            },
+            {
+              "click": "menuItemSelected(12,6)",
+              "text": "milliLitre/min (mL/min)",
+              "value": "flowmlpm"
+            },
+            {
+              "click": "menuItemSelected(12,7)",
+              "text": "Lux (lx)",
+              "value": "lux"
+            }
+          ],
+          "text": "Flow"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(13,0)",
+              "text": "Newton-meters (Nm)",
+              "value": "forceNm"
+            },
+            {
+              "click": "menuItemSelected(13,1)",
+              "text": "Kilonewton-meters (kNm)",
+              "value": "forcekNm"
+            },
+            {
+              "click": "menuItemSelected(13,2)",
+              "text": "Newtons (N)",
+              "value": "forceN"
+            },
+            {
+              "click": "menuItemSelected(13,3)",
+              "text": "Kilonewtons (kN)",
+              "value": "forcekN"
+            }
+          ],
+          "text": "Force"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(14,0)",
+              "text": "hashes/sec",
+              "value": "Hs"
+            },
+            {
+              "click": "menuItemSelected(14,1)",
+              "text": "kilohashes/sec",
+              "value": "KHs"
+            },
+            {
+              "click": "menuItemSelected(14,2)",
+              "text": "megahashes/sec",
+              "value": "MHs"
+            },
+            {
+              "click": "menuItemSelected(14,3)",
+              "text": "gigahashes/sec",
+              "value": "GHs"
+            },
+            {
+              "click": "menuItemSelected(14,4)",
+              "text": "terahashes/sec",
+              "value": "THs"
+            },
+            {
+              "click": "menuItemSelected(14,5)",
+              "text": "petahashes/sec",
+              "value": "PHs"
+            },
+            {
+              "click": "menuItemSelected(14,6)",
+              "text": "exahashes/sec",
+              "value": "EHs"
+            }
+          ],
+          "text": "Hash Rate"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(15,0)",
+              "text": "milligram (mg)",
+              "value": "massmg"
+            },
+            {
+              "click": "menuItemSelected(15,1)",
+              "text": "gram (g)",
+              "value": "massg"
+            },
+            {
+              "click": "menuItemSelected(15,2)",
+              "text": "kilogram (kg)",
+              "value": "masskg"
+            },
+            {
+              "click": "menuItemSelected(15,3)",
+              "text": "metric ton (t)",
+              "value": "masst"
+            }
+          ],
+          "text": "Mass"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(16,0)",
+              "text": "millimeter (mm)",
+              "value": "lengthmm"
+            },
+            {
+              "click": "menuItemSelected(16,1)",
+              "text": "feet (ft)",
+              "value": "lengthft"
+            },
+            {
+              "click": "menuItemSelected(16,2)",
+              "text": "meter (m)",
+              "value": "lengthm"
+            },
+            {
+              "click": "menuItemSelected(16,3)",
+              "text": "kilometer (km)",
+              "value": "lengthkm"
+            },
+            {
+              "click": "menuItemSelected(16,4)",
+              "text": "mile (mi)",
+              "value": "lengthmi"
+            }
+          ],
+          "text": "length"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(17,0)",
+              "text": "Millibars",
+              "value": "pressurembar"
+            },
+            {
+              "click": "menuItemSelected(17,1)",
+              "text": "Bars",
+              "value": "pressurebar"
+            },
+            {
+              "click": "menuItemSelected(17,2)",
+              "text": "Kilobars",
+              "value": "pressurekbar"
+            },
+            {
+              "click": "menuItemSelected(17,3)",
+              "text": "Hectopascals",
+              "value": "pressurehpa"
+            },
+            {
+              "click": "menuItemSelected(17,4)",
+              "text": "Kilopascals",
+              "value": "pressurekpa"
+            },
+            {
+              "click": "menuItemSelected(17,5)",
+              "text": "Inches of mercury",
+              "value": "pressurehg"
+            },
+            {
+              "click": "menuItemSelected(17,6)",
+              "text": "PSI",
+              "value": "pressurepsi"
+            }
+          ],
+          "text": "Pressure"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(18,0)",
+              "text": "Becquerel (Bq)",
+              "value": "radbq"
+            },
+            {
+              "click": "menuItemSelected(18,1)",
+              "text": "curie (Ci)",
+              "value": "radci"
+            },
+            {
+              "click": "menuItemSelected(18,2)",
+              "text": "Gray (Gy)",
+              "value": "radgy"
+            },
+            {
+              "click": "menuItemSelected(18,3)",
+              "text": "rad",
+              "value": "radrad"
+            },
+            {
+              "click": "menuItemSelected(18,4)",
+              "text": "Sievert (Sv)",
+              "value": "radsv"
+            },
+            {
+              "click": "menuItemSelected(18,5)",
+              "text": "milliSievert (mSv)",
+              "value": "radmsv"
+            },
+            {
+              "click": "menuItemSelected(18,6)",
+              "text": "microSievert (µSv)",
+              "value": "radusv"
+            },
+            {
+              "click": "menuItemSelected(18,7)",
+              "text": "rem",
+              "value": "radrem"
+            },
+            {
+              "click": "menuItemSelected(18,8)",
+              "text": "Exposure (C/kg)",
+              "value": "radexpckg"
+            },
+            {
+              "click": "menuItemSelected(18,9)",
+              "text": "roentgen (R)",
+              "value": "radr"
+            },
+            {
+              "click": "menuItemSelected(18,10)",
+              "text": "Sievert/hour (Sv/h)",
+              "value": "radsvh"
+            },
+            {
+              "click": "menuItemSelected(18,11)",
+              "text": "milliSievert/hour (mSv/h)",
+              "value": "radmsvh"
+            },
+            {
+              "click": "menuItemSelected(18,12)",
+              "text": "microSievert/hour (µSv/h)",
+              "value": "radusvh"
+            }
+          ],
+          "text": "Radiation"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(19,0)",
+              "text": "Celsius (°C)",
+              "value": "celsius"
+            },
+            {
+              "click": "menuItemSelected(19,1)",
+              "text": "Fahrenheit (°F)",
+              "value": "fahrenheit"
+            },
+            {
+              "click": "menuItemSelected(19,2)",
+              "text": "Kelvin (K)",
+              "value": "kelvin"
+            }
+          ],
+          "text": "Temperature"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(20,0)",
+              "text": "Hertz (1/s)",
+              "value": "hertz"
+            },
+            {
+              "click": "menuItemSelected(20,1)",
+              "text": "nanoseconds (ns)",
+              "value": "ns"
+            },
+            {
+              "click": "menuItemSelected(20,2)",
+              "text": "microseconds (µs)",
+              "value": "µs"
+            },
+            {
+              "click": "menuItemSelected(20,3)",
+              "text": "milliseconds (ms)",
+              "value": "ms"
+            },
+            {
+              "click": "menuItemSelected(20,4)",
+              "text": "seconds (s)",
+              "value": "s"
+            },
+            {
+              "click": "menuItemSelected(20,5)",
+              "text": "minutes (m)",
+              "value": "m"
+            },
+            {
+              "click": "menuItemSelected(20,6)",
+              "text": "hours (h)",
+              "value": "h"
+            },
+            {
+              "click": "menuItemSelected(20,7)",
+              "text": "days (d)",
+              "value": "d"
+            },
+            {
+              "click": "menuItemSelected(20,8)",
+              "text": "duration (ms)",
+              "value": "dtdurationms"
+            },
+            {
+              "click": "menuItemSelected(20,9)",
+              "text": "duration (s)",
+              "value": "dtdurations"
+            },
+            {
+              "click": "menuItemSelected(20,10)",
+              "text": "duration (hh:mm:ss)",
+              "value": "dthms"
+            },
+            {
+              "click": "menuItemSelected(20,11)",
+              "text": "Timeticks (s/100)",
+              "value": "timeticks"
+            },
+            {
+              "click": "menuItemSelected(20,12)",
+              "text": "clock (ms)",
+              "value": "clockms"
+            },
+            {
+              "click": "menuItemSelected(20,13)",
+              "text": "clock (s)",
+              "value": "clocks"
+            }
+          ],
+          "text": "Time"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(21,0)",
+              "text": "counts/sec (cps)",
+              "value": "cps"
+            },
+            {
+              "click": "menuItemSelected(21,1)",
+              "text": "ops/sec (ops)",
+              "value": "ops"
+            },
+            {
+              "click": "menuItemSelected(21,2)",
+              "text": "requests/sec (rps)",
+              "value": "reqps"
+            },
+            {
+              "click": "menuItemSelected(21,3)",
+              "text": "reads/sec (rps)",
+              "value": "rps"
+            },
+            {
+              "click": "menuItemSelected(21,4)",
+              "text": "writes/sec (wps)",
+              "value": "wps"
+            },
+            {
+              "click": "menuItemSelected(21,5)",
+              "text": "I/O ops/sec (iops)",
+              "value": "iops"
+            },
+            {
+              "click": "menuItemSelected(21,6)",
+              "text": "counts/min (cpm)",
+              "value": "cpm"
+            },
+            {
+              "click": "menuItemSelected(21,7)",
+              "text": "ops/min (opm)",
+              "value": "opm"
+            },
+            {
+              "click": "menuItemSelected(21,8)",
+              "text": "reads/min (rpm)",
+              "value": "rpm"
+            },
+            {
+              "click": "menuItemSelected(21,9)",
+              "text": "writes/min (wpm)",
+              "value": "wpm"
+            }
+          ],
+          "text": "Throughput"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(22,0)",
+              "text": "meters/second (m/s)",
+              "value": "velocityms"
+            },
+            {
+              "click": "menuItemSelected(22,1)",
+              "text": "kilometers/hour (km/h)",
+              "value": "velocitykmh"
+            },
+            {
+              "click": "menuItemSelected(22,2)",
+              "text": "miles/hour (mph)",
+              "value": "velocitymph"
+            },
+            {
+              "click": "menuItemSelected(22,3)",
+              "text": "knot (kn)",
+              "value": "velocityknot"
+            }
+          ],
+          "text": "Velocity"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(23,0)",
+              "text": "millilitre (mL)",
+              "value": "mlitre"
+            },
+            {
+              "click": "menuItemSelected(23,1)",
+              "text": "litre (L)",
+              "value": "litre"
+            },
+            {
+              "click": "menuItemSelected(23,2)",
+              "text": "cubic meter",
+              "value": "m3"
+            },
+            {
+              "click": "menuItemSelected(23,3)",
+              "text": "Normal cubic meter",
+              "value": "Nm3"
+            },
+            {
+              "click": "menuItemSelected(23,4)",
+              "text": "cubic decimeter",
+              "value": "dm3"
+            },
+            {
+              "click": "menuItemSelected(23,5)",
+              "text": "gallons",
+              "value": "gallons"
+            }
+          ],
+          "text": "Volume"
+        }
+      ],
+      "valueMaps": [
+        {
+          "op": "=",
+          "text": "N/A",
+          "value": "null"
+        }
+      ]
+    },
+    {
+      "bgColor": null,
+      "clockType": "24 hour",
+      "countdownSettings": {
+        "customFormat": null,
+        "endCountdownTime": "2020-01-20T17:21:00.000Z",
+        "endText": "00:00:00"
+      },
+      "datasource": null,
+      "dateSettings": {
+        "dateFormat": "DD-MM-YYYY",
+        "fontSize": "24px",
+        "fontWeight": "bold",
+        "showDate": true
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 4,
+        "x": 10,
+        "y": 0
+      },
+      "id": 17,
+      "mode": "time",
+      "options": {},
+      "refreshSettings": {
+        "syncWithDashboard": false
+      },
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeSettings": {
+        "customFormat": "HH:mm:ss",
+        "fontSize": "60px",
+        "fontWeight": "bold"
+      },
+      "timeShift": null,
+      "timezone": "America/Anguilla",
+      "timezoneSettings": {
+        "fontSize": "18px",
+        "fontWeight": "normal",
+        "showTimezone": false,
+        "zoneFormat": "offsetAbbv"
+      },
+      "title": "",
+      "transparent": true,
+      "type": "grafana-clock-panel"
+    },
+    {
+      "colors": [
+        "rgba(245, 54, 54, 0.9)",
+        "rgba(237, 129, 40, 0.89)",
+        "rgba(50, 172, 45, 0.97)"
+      ],
+      "datasource": null,
+      "decimals": 0,
+      "fontSizes": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70
+      ],
+      "fontTypes": [
+        "Arial",
+        "Avant Garde",
+        "Bookman",
+        "Consolas",
+        "Courier",
+        "Courier New",
+        "Garamond",
+        "Helvetica",
+        "Open Sans",
+        "Palatino",
+        "Times",
+        "Times New Roman",
+        "Verdana"
+      ],
+      "format": "percent",
+      "gauge": {
+        "animateNeedleValueTransition": true,
+        "animateNeedleValueTransitionSpeed": 100,
+        "edgeWidth": 0.05,
+        "gaugeRadius": 0,
+        "gaugeUnits": "",
+        "innerCol": "rgb(5, 5, 5)",
+        "labelFontSize": 18,
+        "maxNeedleAngle": 320,
+        "maxTickAngle": 300,
+        "maxValue": 100,
+        "minValue": 0,
+        "needleCol": "#5794F2",
+        "needleLengthNeg": 0.2,
+        "needleTickGap": 0.05,
+        "needleWidth": 5,
+        "outerEdgeCol": "rgb(252, 252, 252)",
+        "padding": 0.05,
+        "pivotCol": "#5794F2",
+        "pivotRadius": 0.1,
+        "show": false,
+        "showLowerThresholdRange": false,
+        "showMiddleThresholdRange": true,
+        "showThresholdColorOnValue": false,
+        "showThresholdOnGauge": false,
+        "showUpperThresholdRange": true,
+        "tickColMaj": "#F2495C",
+        "tickColMin": "#5794F2",
+        "tickEdgeGap": 0.05,
+        "tickFont": "Verdana",
+        "tickLabelCol": "#5794F2",
+        "tickLengthMaj": 0.15,
+        "tickLengthMin": 0.05,
+        "tickSpaceMajVal": 10,
+        "tickSpaceMinVal": 1,
+        "tickWidthMaj": 5,
+        "tickWidthMin": 1,
+        "ticknessGaugeBasis": 200,
+        "unitsFont": "Verdana",
+        "unitsLabelCol": "rgb(255, 255, 255)",
+        "unitsLabelFontSize": 58,
+        "valueYOffset": 0,
+        "zeroNeedleAngle": 40,
+        "zeroTickAngle": 60
+      },
+      "gaugeDivId": "d3gauge_svg_46",
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 14,
+        "y": 0
+      },
+      "id": 46,
+      "mappingType": 1,
+      "mappingTypes": [
+        {
+          "name": "value to text",
+          "value": 1
+        },
+        {
+          "name": "range to text",
+          "value": 2
+        }
+      ],
+      "operatorName": "current",
+      "operatorNameOptions": [
+        "min",
+        "max",
+        "avg",
+        "current",
+        "total",
+        "name"
+      ],
+      "options": {},
+      "rangeMaps": [
+        {
+          "from": "null",
+          "text": "N/A",
+          "to": "null"
+        }
+      ],
+      "svgContainer": {},
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "Zabbix servers"
+          },
+          "host": {
+            "filter": "Zabbix server"
+          },
+          "item": {
+            "filter": "CPU utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": "",
+      "tickMaps": [],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "ZABBIX CPU USO",
+      "transparent": true,
+      "type": "briangann-gauge-panel",
+      "unitFormats": [
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(0,0)",
+              "text": "none",
+              "value": "none"
+            },
+            {
+              "click": "menuItemSelected(0,1)",
+              "text": "short",
+              "value": "short"
+            },
+            {
+              "click": "menuItemSelected(0,2)",
+              "text": "percent (0-100)",
+              "value": "percent"
+            },
+            {
+              "click": "menuItemSelected(0,3)",
+              "text": "percent (0.0-1.0)",
+              "value": "percentunit"
+            },
+            {
+              "click": "menuItemSelected(0,4)",
+              "text": "Humidity (%H)",
+              "value": "humidity"
+            },
+            {
+              "click": "menuItemSelected(0,5)",
+              "text": "decibel",
+              "value": "dB"
+            },
+            {
+              "click": "menuItemSelected(0,6)",
+              "text": "hexadecimal (0x)",
+              "value": "hex0x"
+            },
+            {
+              "click": "menuItemSelected(0,7)",
+              "text": "hexadecimal",
+              "value": "hex"
+            },
+            {
+              "click": "menuItemSelected(0,8)",
+              "text": "scientific notation",
+              "value": "sci"
+            },
+            {
+              "click": "menuItemSelected(0,9)",
+              "text": "locale format",
+              "value": "locale"
+            },
+            {
+              "click": "menuItemSelected(0,10)",
+              "text": "Pixels",
+              "value": "pixel"
+            }
+          ],
+          "text": "Misc"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(1,0)",
+              "text": "Meters/sec²",
+              "value": "accMS2"
+            },
+            {
+              "click": "menuItemSelected(1,1)",
+              "text": "Feet/sec²",
+              "value": "accFS2"
+            },
+            {
+              "click": "menuItemSelected(1,2)",
+              "text": "G unit",
+              "value": "accG"
+            }
+          ],
+          "text": "Acceleration"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(2,0)",
+              "text": "Degrees (°)",
+              "value": "degree"
+            },
+            {
+              "click": "menuItemSelected(2,1)",
+              "text": "Radians",
+              "value": "radian"
+            },
+            {
+              "click": "menuItemSelected(2,2)",
+              "text": "Gradian",
+              "value": "grad"
+            },
+            {
+              "click": "menuItemSelected(2,3)",
+              "text": "Arc Minutes",
+              "value": "arcmin"
+            },
+            {
+              "click": "menuItemSelected(2,4)",
+              "text": "Arc Seconds",
+              "value": "arcsec"
+            }
+          ],
+          "text": "Angle"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(3,0)",
+              "text": "Square Meters (m²)",
+              "value": "areaM2"
+            },
+            {
+              "click": "menuItemSelected(3,1)",
+              "text": "Square Feet (ft²)",
+              "value": "areaF2"
+            },
+            {
+              "click": "menuItemSelected(3,2)",
+              "text": "Square Miles (mi²)",
+              "value": "areaMI2"
+            }
+          ],
+          "text": "Area"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(4,0)",
+              "text": "FLOP/s",
+              "value": "flops"
+            },
+            {
+              "click": "menuItemSelected(4,1)",
+              "text": "MFLOP/s",
+              "value": "mflops"
+            },
+            {
+              "click": "menuItemSelected(4,2)",
+              "text": "GFLOP/s",
+              "value": "gflops"
+            },
+            {
+              "click": "menuItemSelected(4,3)",
+              "text": "TFLOP/s",
+              "value": "tflops"
+            },
+            {
+              "click": "menuItemSelected(4,4)",
+              "text": "PFLOP/s",
+              "value": "pflops"
+            },
+            {
+              "click": "menuItemSelected(4,5)",
+              "text": "EFLOP/s",
+              "value": "eflops"
+            },
+            {
+              "click": "menuItemSelected(4,6)",
+              "text": "ZFLOP/s",
+              "value": "zflops"
+            },
+            {
+              "click": "menuItemSelected(4,7)",
+              "text": "YFLOP/s",
+              "value": "yflops"
+            }
+          ],
+          "text": "Computation"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(5,0)",
+              "text": "parts-per-million (ppm)",
+              "value": "ppm"
+            },
+            {
+              "click": "menuItemSelected(5,1)",
+              "text": "parts-per-billion (ppb)",
+              "value": "conppb"
+            },
+            {
+              "click": "menuItemSelected(5,2)",
+              "text": "nanogram per cubic meter (ng/m³)",
+              "value": "conngm3"
+            },
+            {
+              "click": "menuItemSelected(5,3)",
+              "text": "nanogram per normal cubic meter (ng/Nm³)",
+              "value": "conngNm3"
+            },
+            {
+              "click": "menuItemSelected(5,4)",
+              "text": "microgram per cubic meter (μg/m³)",
+              "value": "conμgm3"
+            },
+            {
+              "click": "menuItemSelected(5,5)",
+              "text": "microgram per normal cubic meter (μg/Nm³)",
+              "value": "conμgNm3"
+            },
+            {
+              "click": "menuItemSelected(5,6)",
+              "text": "milligram per cubic meter (mg/m³)",
+              "value": "conmgm3"
+            },
+            {
+              "click": "menuItemSelected(5,7)",
+              "text": "milligram per normal cubic meter (mg/Nm³)",
+              "value": "conmgNm3"
+            },
+            {
+              "click": "menuItemSelected(5,8)",
+              "text": "gram per cubic meter (g/m³)",
+              "value": "congm3"
+            },
+            {
+              "click": "menuItemSelected(5,9)",
+              "text": "gram per normal cubic meter (g/Nm³)",
+              "value": "congNm3"
+            },
+            {
+              "click": "menuItemSelected(5,10)",
+              "text": "milligrams per decilitre (mg/dL)",
+              "value": "conmgdL"
+            },
+            {
+              "click": "menuItemSelected(5,11)",
+              "text": "millimoles per litre (mmol/L)",
+              "value": "conmmolL"
+            }
+          ],
+          "text": "Concentration"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(6,0)",
+              "text": "Dollars ($)",
+              "value": "currencyUSD"
+            },
+            {
+              "click": "menuItemSelected(6,1)",
+              "text": "Pounds (£)",
+              "value": "currencyGBP"
+            },
+            {
+              "click": "menuItemSelected(6,2)",
+              "text": "Euro (€)",
+              "value": "currencyEUR"
+            },
+            {
+              "click": "menuItemSelected(6,3)",
+              "text": "Yen (¥)",
+              "value": "currencyJPY"
+            },
+            {
+              "click": "menuItemSelected(6,4)",
+              "text": "Rubles (₽)",
+              "value": "currencyRUB"
+            },
+            {
+              "click": "menuItemSelected(6,5)",
+              "text": "Hryvnias (₴)",
+              "value": "currencyUAH"
+            },
+            {
+              "click": "menuItemSelected(6,6)",
+              "text": "Real (R$)",
+              "value": "currencyBRL"
+            },
+            {
+              "click": "menuItemSelected(6,7)",
+              "text": "Danish Krone (kr)",
+              "value": "currencyDKK"
+            },
+            {
+              "click": "menuItemSelected(6,8)",
+              "text": "Icelandic Króna (kr)",
+              "value": "currencyISK"
+            },
+            {
+              "click": "menuItemSelected(6,9)",
+              "text": "Norwegian Krone (kr)",
+              "value": "currencyNOK"
+            },
+            {
+              "click": "menuItemSelected(6,10)",
+              "text": "Swedish Krona (kr)",
+              "value": "currencySEK"
+            },
+            {
+              "click": "menuItemSelected(6,11)",
+              "text": "Czech koruna (czk)",
+              "value": "currencyCZK"
+            },
+            {
+              "click": "menuItemSelected(6,12)",
+              "text": "Swiss franc (CHF)",
+              "value": "currencyCHF"
+            },
+            {
+              "click": "menuItemSelected(6,13)",
+              "text": "Polish Złoty (PLN)",
+              "value": "currencyPLN"
+            },
+            {
+              "click": "menuItemSelected(6,14)",
+              "text": "Bitcoin (฿)",
+              "value": "currencyBTC"
+            },
+            {
+              "click": "menuItemSelected(6,15)",
+              "text": "South African Rand (R)",
+              "value": "currencyZAR"
+            },
+            {
+              "click": "menuItemSelected(6,16)",
+              "text": "Indian Rupee (₹)",
+              "value": "currencyINR"
+            }
+          ],
+          "text": "Currency"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(7,0)",
+              "text": "bits",
+              "value": "bits"
+            },
+            {
+              "click": "menuItemSelected(7,1)",
+              "text": "bytes",
+              "value": "bytes"
+            },
+            {
+              "click": "menuItemSelected(7,2)",
+              "text": "kibibytes",
+              "value": "kbytes"
+            },
+            {
+              "click": "menuItemSelected(7,3)",
+              "text": "mebibytes",
+              "value": "mbytes"
+            },
+            {
+              "click": "menuItemSelected(7,4)",
+              "text": "gibibytes",
+              "value": "gbytes"
+            },
+            {
+              "click": "menuItemSelected(7,5)",
+              "text": "tebibytes",
+              "value": "tbytes"
+            },
+            {
+              "click": "menuItemSelected(7,6)",
+              "text": "pebibytes",
+              "value": "pbytes"
+            }
+          ],
+          "text": "Data (IEC)"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(8,0)",
+              "text": "bits",
+              "value": "decbits"
+            },
+            {
+              "click": "menuItemSelected(8,1)",
+              "text": "bytes",
+              "value": "decbytes"
+            },
+            {
+              "click": "menuItemSelected(8,2)",
+              "text": "kilobytes",
+              "value": "deckbytes"
+            },
+            {
+              "click": "menuItemSelected(8,3)",
+              "text": "megabytes",
+              "value": "decmbytes"
+            },
+            {
+              "click": "menuItemSelected(8,4)",
+              "text": "gigabytes",
+              "value": "decgbytes"
+            },
+            {
+              "click": "menuItemSelected(8,5)",
+              "text": "terabytes",
+              "value": "dectbytes"
+            },
+            {
+              "click": "menuItemSelected(8,6)",
+              "text": "petabytes",
+              "value": "decpbytes"
+            }
+          ],
+          "text": "Data (Metric)"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(9,0)",
+              "text": "packets/sec",
+              "value": "pps"
+            },
+            {
+              "click": "menuItemSelected(9,1)",
+              "text": "bits/sec",
+              "value": "bps"
+            },
+            {
+              "click": "menuItemSelected(9,2)",
+              "text": "bytes/sec",
+              "value": "Bps"
+            },
+            {
+              "click": "menuItemSelected(9,3)",
+              "text": "kilobytes/sec",
+              "value": "KBs"
+            },
+            {
+              "click": "menuItemSelected(9,4)",
+              "text": "kilobits/sec",
+              "value": "Kbits"
+            },
+            {
+              "click": "menuItemSelected(9,5)",
+              "text": "megabytes/sec",
+              "value": "MBs"
+            },
+            {
+              "click": "menuItemSelected(9,6)",
+              "text": "megabits/sec",
+              "value": "Mbits"
+            },
+            {
+              "click": "menuItemSelected(9,7)",
+              "text": "gigabytes/sec",
+              "value": "GBs"
+            },
+            {
+              "click": "menuItemSelected(9,8)",
+              "text": "gigabits/sec",
+              "value": "Gbits"
+            },
+            {
+              "click": "menuItemSelected(9,9)",
+              "text": "terabytes/sec",
+              "value": "TBs"
+            },
+            {
+              "click": "menuItemSelected(9,10)",
+              "text": "terabits/sec",
+              "value": "Tbits"
+            },
+            {
+              "click": "menuItemSelected(9,11)",
+              "text": "petabytes/sec",
+              "value": "PBs"
+            },
+            {
+              "click": "menuItemSelected(9,12)",
+              "text": "petabits/sec",
+              "value": "Pbits"
+            }
+          ],
+          "text": "Data Rate"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(10,0)",
+              "text": "YYYY-MM-DD HH:mm:ss",
+              "value": "dateTimeAsIso"
+            },
+            {
+              "click": "menuItemSelected(10,1)",
+              "text": "DD/MM/YYYY h:mm:ss a",
+              "value": "dateTimeAsUS"
+            },
+            {
+              "click": "menuItemSelected(10,2)",
+              "text": "From Now",
+              "value": "dateTimeFromNow"
+            }
+          ],
+          "text": "Date & Time"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(11,0)",
+              "text": "Watt (W)",
+              "value": "watt"
+            },
+            {
+              "click": "menuItemSelected(11,1)",
+              "text": "Kilowatt (kW)",
+              "value": "kwatt"
+            },
+            {
+              "click": "menuItemSelected(11,2)",
+              "text": "Megawatt (MW)",
+              "value": "megwatt"
+            },
+            {
+              "click": "menuItemSelected(11,3)",
+              "text": "Milliwatt (mW)",
+              "value": "mwatt"
+            },
+            {
+              "click": "menuItemSelected(11,4)",
+              "text": "Watt per square meter (W/m²)",
+              "value": "Wm2"
+            },
+            {
+              "click": "menuItemSelected(11,5)",
+              "text": "Volt-ampere (VA)",
+              "value": "voltamp"
+            },
+            {
+              "click": "menuItemSelected(11,6)",
+              "text": "Kilovolt-ampere (kVA)",
+              "value": "kvoltamp"
+            },
+            {
+              "click": "menuItemSelected(11,7)",
+              "text": "Volt-ampere reactive (var)",
+              "value": "voltampreact"
+            },
+            {
+              "click": "menuItemSelected(11,8)",
+              "text": "Kilovolt-ampere reactive (kvar)",
+              "value": "kvoltampreact"
+            },
+            {
+              "click": "menuItemSelected(11,9)",
+              "text": "Watt-hour (Wh)",
+              "value": "watth"
+            },
+            {
+              "click": "menuItemSelected(11,10)",
+              "text": "Watt-hour per Kilogram (Wh/kg)",
+              "value": "watthperkg"
+            },
+            {
+              "click": "menuItemSelected(11,11)",
+              "text": "Kilowatt-hour (kWh)",
+              "value": "kwatth"
+            },
+            {
+              "click": "menuItemSelected(11,12)",
+              "text": "Kilowatt-min (kWm)",
+              "value": "kwattm"
+            },
+            {
+              "click": "menuItemSelected(11,13)",
+              "text": "Ampere-hour (Ah)",
+              "value": "amph"
+            },
+            {
+              "click": "menuItemSelected(11,14)",
+              "text": "Kiloampere-hour (kAh)",
+              "value": "kamph"
+            },
+            {
+              "click": "menuItemSelected(11,15)",
+              "text": "Milliampere-hour (mAh)",
+              "value": "mamph"
+            },
+            {
+              "click": "menuItemSelected(11,16)",
+              "text": "Joule (J)",
+              "value": "joule"
+            },
+            {
+              "click": "menuItemSelected(11,17)",
+              "text": "Electron volt (eV)",
+              "value": "ev"
+            },
+            {
+              "click": "menuItemSelected(11,18)",
+              "text": "Ampere (A)",
+              "value": "amp"
+            },
+            {
+              "click": "menuItemSelected(11,19)",
+              "text": "Kiloampere (kA)",
+              "value": "kamp"
+            },
+            {
+              "click": "menuItemSelected(11,20)",
+              "text": "Milliampere (mA)",
+              "value": "mamp"
+            },
+            {
+              "click": "menuItemSelected(11,21)",
+              "text": "Volt (V)",
+              "value": "volt"
+            },
+            {
+              "click": "menuItemSelected(11,22)",
+              "text": "Kilovolt (kV)",
+              "value": "kvolt"
+            },
+            {
+              "click": "menuItemSelected(11,23)",
+              "text": "Millivolt (mV)",
+              "value": "mvolt"
+            },
+            {
+              "click": "menuItemSelected(11,24)",
+              "text": "Decibel-milliwatt (dBm)",
+              "value": "dBm"
+            },
+            {
+              "click": "menuItemSelected(11,25)",
+              "text": "Ohm (Ω)",
+              "value": "ohm"
+            },
+            {
+              "click": "menuItemSelected(11,26)",
+              "text": "Lumens (Lm)",
+              "value": "lumens"
+            }
+          ],
+          "text": "Energy"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(12,0)",
+              "text": "Gallons/min (gpm)",
+              "value": "flowgpm"
+            },
+            {
+              "click": "menuItemSelected(12,1)",
+              "text": "Cubic meters/sec (cms)",
+              "value": "flowcms"
+            },
+            {
+              "click": "menuItemSelected(12,2)",
+              "text": "Cubic feet/sec (cfs)",
+              "value": "flowcfs"
+            },
+            {
+              "click": "menuItemSelected(12,3)",
+              "text": "Cubic feet/min (cfm)",
+              "value": "flowcfm"
+            },
+            {
+              "click": "menuItemSelected(12,4)",
+              "text": "Litre/hour",
+              "value": "litreh"
+            },
+            {
+              "click": "menuItemSelected(12,5)",
+              "text": "Litre/min (L/min)",
+              "value": "flowlpm"
+            },
+            {
+              "click": "menuItemSelected(12,6)",
+              "text": "milliLitre/min (mL/min)",
+              "value": "flowmlpm"
+            },
+            {
+              "click": "menuItemSelected(12,7)",
+              "text": "Lux (lx)",
+              "value": "lux"
+            }
+          ],
+          "text": "Flow"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(13,0)",
+              "text": "Newton-meters (Nm)",
+              "value": "forceNm"
+            },
+            {
+              "click": "menuItemSelected(13,1)",
+              "text": "Kilonewton-meters (kNm)",
+              "value": "forcekNm"
+            },
+            {
+              "click": "menuItemSelected(13,2)",
+              "text": "Newtons (N)",
+              "value": "forceN"
+            },
+            {
+              "click": "menuItemSelected(13,3)",
+              "text": "Kilonewtons (kN)",
+              "value": "forcekN"
+            }
+          ],
+          "text": "Force"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(14,0)",
+              "text": "hashes/sec",
+              "value": "Hs"
+            },
+            {
+              "click": "menuItemSelected(14,1)",
+              "text": "kilohashes/sec",
+              "value": "KHs"
+            },
+            {
+              "click": "menuItemSelected(14,2)",
+              "text": "megahashes/sec",
+              "value": "MHs"
+            },
+            {
+              "click": "menuItemSelected(14,3)",
+              "text": "gigahashes/sec",
+              "value": "GHs"
+            },
+            {
+              "click": "menuItemSelected(14,4)",
+              "text": "terahashes/sec",
+              "value": "THs"
+            },
+            {
+              "click": "menuItemSelected(14,5)",
+              "text": "petahashes/sec",
+              "value": "PHs"
+            },
+            {
+              "click": "menuItemSelected(14,6)",
+              "text": "exahashes/sec",
+              "value": "EHs"
+            }
+          ],
+          "text": "Hash Rate"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(15,0)",
+              "text": "milligram (mg)",
+              "value": "massmg"
+            },
+            {
+              "click": "menuItemSelected(15,1)",
+              "text": "gram (g)",
+              "value": "massg"
+            },
+            {
+              "click": "menuItemSelected(15,2)",
+              "text": "kilogram (kg)",
+              "value": "masskg"
+            },
+            {
+              "click": "menuItemSelected(15,3)",
+              "text": "metric ton (t)",
+              "value": "masst"
+            }
+          ],
+          "text": "Mass"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(16,0)",
+              "text": "millimeter (mm)",
+              "value": "lengthmm"
+            },
+            {
+              "click": "menuItemSelected(16,1)",
+              "text": "feet (ft)",
+              "value": "lengthft"
+            },
+            {
+              "click": "menuItemSelected(16,2)",
+              "text": "meter (m)",
+              "value": "lengthm"
+            },
+            {
+              "click": "menuItemSelected(16,3)",
+              "text": "kilometer (km)",
+              "value": "lengthkm"
+            },
+            {
+              "click": "menuItemSelected(16,4)",
+              "text": "mile (mi)",
+              "value": "lengthmi"
+            }
+          ],
+          "text": "length"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(17,0)",
+              "text": "Millibars",
+              "value": "pressurembar"
+            },
+            {
+              "click": "menuItemSelected(17,1)",
+              "text": "Bars",
+              "value": "pressurebar"
+            },
+            {
+              "click": "menuItemSelected(17,2)",
+              "text": "Kilobars",
+              "value": "pressurekbar"
+            },
+            {
+              "click": "menuItemSelected(17,3)",
+              "text": "Hectopascals",
+              "value": "pressurehpa"
+            },
+            {
+              "click": "menuItemSelected(17,4)",
+              "text": "Kilopascals",
+              "value": "pressurekpa"
+            },
+            {
+              "click": "menuItemSelected(17,5)",
+              "text": "Inches of mercury",
+              "value": "pressurehg"
+            },
+            {
+              "click": "menuItemSelected(17,6)",
+              "text": "PSI",
+              "value": "pressurepsi"
+            }
+          ],
+          "text": "Pressure"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(18,0)",
+              "text": "Becquerel (Bq)",
+              "value": "radbq"
+            },
+            {
+              "click": "menuItemSelected(18,1)",
+              "text": "curie (Ci)",
+              "value": "radci"
+            },
+            {
+              "click": "menuItemSelected(18,2)",
+              "text": "Gray (Gy)",
+              "value": "radgy"
+            },
+            {
+              "click": "menuItemSelected(18,3)",
+              "text": "rad",
+              "value": "radrad"
+            },
+            {
+              "click": "menuItemSelected(18,4)",
+              "text": "Sievert (Sv)",
+              "value": "radsv"
+            },
+            {
+              "click": "menuItemSelected(18,5)",
+              "text": "milliSievert (mSv)",
+              "value": "radmsv"
+            },
+            {
+              "click": "menuItemSelected(18,6)",
+              "text": "microSievert (µSv)",
+              "value": "radusv"
+            },
+            {
+              "click": "menuItemSelected(18,7)",
+              "text": "rem",
+              "value": "radrem"
+            },
+            {
+              "click": "menuItemSelected(18,8)",
+              "text": "Exposure (C/kg)",
+              "value": "radexpckg"
+            },
+            {
+              "click": "menuItemSelected(18,9)",
+              "text": "roentgen (R)",
+              "value": "radr"
+            },
+            {
+              "click": "menuItemSelected(18,10)",
+              "text": "Sievert/hour (Sv/h)",
+              "value": "radsvh"
+            },
+            {
+              "click": "menuItemSelected(18,11)",
+              "text": "milliSievert/hour (mSv/h)",
+              "value": "radmsvh"
+            },
+            {
+              "click": "menuItemSelected(18,12)",
+              "text": "microSievert/hour (µSv/h)",
+              "value": "radusvh"
+            }
+          ],
+          "text": "Radiation"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(19,0)",
+              "text": "Celsius (°C)",
+              "value": "celsius"
+            },
+            {
+              "click": "menuItemSelected(19,1)",
+              "text": "Fahrenheit (°F)",
+              "value": "fahrenheit"
+            },
+            {
+              "click": "menuItemSelected(19,2)",
+              "text": "Kelvin (K)",
+              "value": "kelvin"
+            }
+          ],
+          "text": "Temperature"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(20,0)",
+              "text": "Hertz (1/s)",
+              "value": "hertz"
+            },
+            {
+              "click": "menuItemSelected(20,1)",
+              "text": "nanoseconds (ns)",
+              "value": "ns"
+            },
+            {
+              "click": "menuItemSelected(20,2)",
+              "text": "microseconds (µs)",
+              "value": "µs"
+            },
+            {
+              "click": "menuItemSelected(20,3)",
+              "text": "milliseconds (ms)",
+              "value": "ms"
+            },
+            {
+              "click": "menuItemSelected(20,4)",
+              "text": "seconds (s)",
+              "value": "s"
+            },
+            {
+              "click": "menuItemSelected(20,5)",
+              "text": "minutes (m)",
+              "value": "m"
+            },
+            {
+              "click": "menuItemSelected(20,6)",
+              "text": "hours (h)",
+              "value": "h"
+            },
+            {
+              "click": "menuItemSelected(20,7)",
+              "text": "days (d)",
+              "value": "d"
+            },
+            {
+              "click": "menuItemSelected(20,8)",
+              "text": "duration (ms)",
+              "value": "dtdurationms"
+            },
+            {
+              "click": "menuItemSelected(20,9)",
+              "text": "duration (s)",
+              "value": "dtdurations"
+            },
+            {
+              "click": "menuItemSelected(20,10)",
+              "text": "duration (hh:mm:ss)",
+              "value": "dthms"
+            },
+            {
+              "click": "menuItemSelected(20,11)",
+              "text": "Timeticks (s/100)",
+              "value": "timeticks"
+            },
+            {
+              "click": "menuItemSelected(20,12)",
+              "text": "clock (ms)",
+              "value": "clockms"
+            },
+            {
+              "click": "menuItemSelected(20,13)",
+              "text": "clock (s)",
+              "value": "clocks"
+            }
+          ],
+          "text": "Time"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(21,0)",
+              "text": "counts/sec (cps)",
+              "value": "cps"
+            },
+            {
+              "click": "menuItemSelected(21,1)",
+              "text": "ops/sec (ops)",
+              "value": "ops"
+            },
+            {
+              "click": "menuItemSelected(21,2)",
+              "text": "requests/sec (rps)",
+              "value": "reqps"
+            },
+            {
+              "click": "menuItemSelected(21,3)",
+              "text": "reads/sec (rps)",
+              "value": "rps"
+            },
+            {
+              "click": "menuItemSelected(21,4)",
+              "text": "writes/sec (wps)",
+              "value": "wps"
+            },
+            {
+              "click": "menuItemSelected(21,5)",
+              "text": "I/O ops/sec (iops)",
+              "value": "iops"
+            },
+            {
+              "click": "menuItemSelected(21,6)",
+              "text": "counts/min (cpm)",
+              "value": "cpm"
+            },
+            {
+              "click": "menuItemSelected(21,7)",
+              "text": "ops/min (opm)",
+              "value": "opm"
+            },
+            {
+              "click": "menuItemSelected(21,8)",
+              "text": "reads/min (rpm)",
+              "value": "rpm"
+            },
+            {
+              "click": "menuItemSelected(21,9)",
+              "text": "writes/min (wpm)",
+              "value": "wpm"
+            }
+          ],
+          "text": "Throughput"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(22,0)",
+              "text": "meters/second (m/s)",
+              "value": "velocityms"
+            },
+            {
+              "click": "menuItemSelected(22,1)",
+              "text": "kilometers/hour (km/h)",
+              "value": "velocitykmh"
+            },
+            {
+              "click": "menuItemSelected(22,2)",
+              "text": "miles/hour (mph)",
+              "value": "velocitymph"
+            },
+            {
+              "click": "menuItemSelected(22,3)",
+              "text": "knot (kn)",
+              "value": "velocityknot"
+            }
+          ],
+          "text": "Velocity"
+        },
+        {
+          "submenu": [
+            {
+              "click": "menuItemSelected(23,0)",
+              "text": "millilitre (mL)",
+              "value": "mlitre"
+            },
+            {
+              "click": "menuItemSelected(23,1)",
+              "text": "litre (L)",
+              "value": "litre"
+            },
+            {
+              "click": "menuItemSelected(23,2)",
+              "text": "cubic meter",
+              "value": "m3"
+            },
+            {
+              "click": "menuItemSelected(23,3)",
+              "text": "Normal cubic meter",
+              "value": "Nm3"
+            },
+            {
+              "click": "menuItemSelected(23,4)",
+              "text": "cubic decimeter",
+              "value": "dm3"
+            },
+            {
+              "click": "menuItemSelected(23,5)",
+              "text": "gallons",
+              "value": "gallons"
+            }
+          ],
+          "text": "Volume"
+        }
+      ],
+      "valueMaps": [
+        {
+          "op": "=",
+          "text": "N/A",
+          "value": "null"
+        }
+      ]
+    },
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 7,
+        "x": 17,
+        "y": 0
+      },
+      "id": 19,
+      "links": [],
+      "options": {
+        "displayMode": "lcd",
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "blue",
+                "value": null
+              },
+              {
+                "color": "dark-red",
+                "value": 80
+              }
+            ],
+            "unit": "percent"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "vertical"
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "CPU PET CR"
+              ],
+              "text": "setAlias(CPU PET CR)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-CR"
+          },
+          "item": {
+            "filter": "CPU Load"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "D",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "CPU PET CH"
+              ],
+              "text": "setAlias(CPU PET CH)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-CHA"
+          },
+          "item": {
+            "filter": "CPU Load"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "C",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "CPU PET TQ"
+              ],
+              "text": "setAlias(CPU PET TQ)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-A.T"
+          },
+          "item": {
+            "filter": "CPU Load"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "B",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "CPU PET GNH"
+              ],
+              "text": "setAlias(CPU PET GNH)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-G.N.H"
+          },
+          "item": {
+            "filter": "CPU Load"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "E",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "CPU PET SF"
+              ],
+              "text": "setAlias(CPU PET SF)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-S.F"
+          },
+          "item": {
+            "filter": "CPU Load"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "F",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "",
+      "type": "bargauge"
+    },
+    {
+      "cacheTimeout": null,
+      "colorBackground": false,
+      "colorValue": false,
+      "colors": [
+        "#299c46",
+        "rgba(237, 129, 40, 0.89)",
+        "#d44a3a"
+      ],
+      "datasource": null,
+      "format": "s",
+      "gauge": {
+        "maxValue": 100,
+        "minValue": 0,
+        "show": false,
+        "thresholdLabels": false,
+        "thresholdMarkers": true
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 0,
+        "y": 5
+      },
+      "id": 42,
+      "interval": null,
+      "links": [],
+      "mappingType": 1,
+      "mappingTypes": [
+        {
+          "name": "value to text",
+          "value": 1
+        },
+        {
+          "name": "range to text",
+          "value": 2
+        }
+      ],
+      "maxDataPoints": 100,
+      "nullPointMode": "connected",
+      "nullText": null,
+      "options": {},
+      "pluginVersion": "6.5.3",
+      "postfix": "",
+      "postfixFontSize": "50%",
+      "prefix": "",
+      "prefixFontSize": "50%",
+      "rangeMaps": [
+        {
+          "from": "null",
+          "text": "N/A",
+          "to": "null"
+        }
+      ],
+      "sparkline": {
+        "fillColor": "rgba(31, 118, 189, 0.18)",
+        "full": false,
+        "lineColor": "rgb(31, 120, 193)",
+        "show": false,
+        "ymax": null,
+        "ymin": null
+      },
+      "tableColumn": "",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "Uptime"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": "",
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "SVR PETROLEO UPTIME",
+      "type": "singlestat",
+      "valueFontSize": "80%",
+      "valueMaps": [
+        {
+          "op": "=",
+          "text": "N/A",
+          "value": "null"
+        }
+      ],
+      "valueName": "current"
+    },
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 3,
+        "y": 5
+      },
+      "id": 44,
+      "links": [],
+      "options": {
+        "displayMode": "gradient",
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "decimals": 0,
+            "mappings": [],
+            "max": 24,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "blue",
+                "value": null
+              },
+              {
+                "color": "dark-red",
+                "value": 15
+              }
+            ],
+            "unit": "decbytes"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "vertical"
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "RAM USO"
+              ],
+              "text": "setAlias(RAM USO)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "Physical Memory: Used memory"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "RAM TOTAL"
+              ],
+              "text": "setAlias(RAM TOTAL)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "Physical Memory: Total memory"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "D",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "",
+      "type": "bargauge"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 6,
+        "y": 5
+      },
+      "id": 8,
+      "options": {
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ],
+            "unit": "percent"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "auto",
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "CPU utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "CPU EM USO",
+      "type": "gauge"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 9,
+        "y": 5
+      },
+      "id": 38,
+      "options": {
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ],
+            "unit": "percent"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "auto",
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "Physical Memory: Memory utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "RAM EM USO",
+      "type": "gauge"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 12,
+        "y": 5
+      },
+      "id": 39,
+      "options": {
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ],
+            "unit": "percent"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "auto",
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "C:\\ Label:  Serial Number ae0bdf65: Space utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "C: UTILIZAÇÃO",
+      "type": "gauge"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 15,
+        "y": 5
+      },
+      "id": 40,
+      "options": {
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ],
+            "unit": "percent"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "auto",
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "D:\\ Label:FTP  Serial Number 4e0d5408: Space utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "D: UTILIZAÇÃO",
+      "type": "gauge"
+    },
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 6,
+        "x": 18,
+        "y": 5
+      },
+      "id": 43,
+      "links": [],
+      "options": {
+        "displayMode": "gradient",
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "decimals": 0,
+            "mappings": [],
+            "max": 1000,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "blue",
+                "value": null
+              },
+              {
+                "color": "dark-red",
+                "value": 800
+              }
+            ],
+            "unit": "decbytes"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "vertical"
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "C: USO"
+              ],
+              "text": "setAlias(C: USO)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "C:\\ Label:  Serial Number ae0bdf65: Used space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "C: TOTAL"
+              ],
+              "text": "setAlias(C: TOTAL)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "C:\\ Label:  Serial Number ae0bdf65: Total space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "D",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "D: TOTAL"
+              ],
+              "text": "setAlias(D: TOTAL)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "D:\\ Label:FTP  Serial Number 4e0d5408: Used space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "B",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "D: TOTAL"
+              ],
+              "text": "setAlias(D: TOTAL)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-PETROLEO"
+          },
+          "item": {
+            "filter": "D:\\ Label:FTP  Serial Number 4e0d5408: Total space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "C",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "",
+      "type": "bargauge"
+    },
+    {
+      "aliasColors": {},
+      "bars": true,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fill": 10,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 5,
+        "w": 4,
+        "x": 0,
+        "y": 10
+      },
+      "hiddenSeries": false,
+      "id": 31,
+      "legend": {
+        "avg": true,
+        "current": true,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": false,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "DNS"
+          },
+          "host": {
+            "filter": "GOOGLE"
+          },
+          "item": {
+            "filter": "Tempo de Resposta"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": [
+        {
+          "colorMode": "custom",
+          "fill": false,
+          "line": true,
+          "lineColor": "rgb(255, 0, 0)",
+          "op": "gt",
+          "source": "zabbix",
+          "value": 50
+        }
+      ],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "PING  DNS GOOGLE",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "s",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
+      "aliasColors": {},
+      "bars": true,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fill": 10,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 5,
+        "w": 4,
+        "x": 4,
+        "y": 10
+      },
+      "hiddenSeries": false,
+      "id": 45,
+      "legend": {
+        "avg": true,
+        "current": true,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": false,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-CR"
+          },
+          "item": {
+            "filter": "Tempo de Resposta"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": [
+        {
+          "colorMode": "custom",
+          "fill": false,
+          "line": true,
+          "lineColor": "rgb(255, 0, 0)",
+          "op": "gt",
+          "source": "zabbix",
+          "value": 50
+        }
+      ],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "PING  PET. COSTA RICA",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "s",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
+      "aliasColors": {},
+      "bars": true,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fill": 10,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 5,
+        "w": 4,
+        "x": 8,
+        "y": 10
+      },
+      "hiddenSeries": false,
+      "id": 3,
+      "legend": {
+        "avg": true,
+        "current": true,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": false,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-CHA"
+          },
+          "item": {
+            "filter": "Tempo de Resposta"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": [
+        {
+          "colorMode": "custom",
+          "fill": false,
+          "line": true,
+          "lineColor": "rgb(255, 0, 0)",
+          "op": "gt",
+          "source": "zabbix",
+          "value": 50
+        }
+      ],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "PING PET. CHAPADAO",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "s",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
+      "aliasColors": {},
+      "bars": true,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fill": 10,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 5,
+        "w": 4,
+        "x": 12,
+        "y": 10
+      },
+      "hiddenSeries": false,
+      "id": 2,
+      "legend": {
+        "avg": true,
+        "current": true,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": false,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-A.T"
+          },
+          "item": {
+            "filter": "Tempo de Resposta"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": [
+        {
+          "colorMode": "custom",
+          "fill": false,
+          "line": true,
+          "lineColor": "rgb(255, 0, 0)",
+          "op": "gt",
+          "source": "zabbix",
+          "value": 50
+        }
+      ],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "PING PET. TAQUARI",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "s",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
+      "aliasColors": {},
+      "bars": true,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fill": 10,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 5,
+        "w": 4,
+        "x": 16,
+        "y": 10
+      },
+      "hiddenSeries": false,
+      "id": 21,
+      "legend": {
+        "avg": true,
+        "current": true,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": false,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-G.N.H"
+          },
+          "item": {
+            "filter": "Tempo de Resposta"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": [
+        {
+          "colorMode": "custom",
+          "fill": false,
+          "line": true,
+          "lineColor": "rgb(255, 0, 0)",
+          "op": "gt",
+          "source": "zabbix",
+          "value": 50
+        }
+      ],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "PING  PET. GNH",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "s",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
+      "aliasColors": {},
+      "bars": true,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fill": 10,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 5,
+        "w": 4,
+        "x": 20,
+        "y": 10
+      },
+      "hiddenSeries": false,
+      "id": 4,
+      "legend": {
+        "avg": true,
+        "current": true,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": false,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-S.F"
+          },
+          "item": {
+            "filter": "Tempo de Resposta"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": [
+        {
+          "colorMode": "custom",
+          "fill": false,
+          "line": true,
+          "lineColor": "rgb(255, 0, 0)",
+          "op": "gt",
+          "source": "zabbix",
+          "value": 50
+        }
+      ],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "PING PET. SAO FELIX",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "s",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
+      "cacheTimeout": null,
+      "colorBackground": false,
+      "colorValue": false,
+      "colors": [
+        "#299c46",
+        "rgba(237, 129, 40, 0.89)",
+        "#d44a3a"
+      ],
+      "datasource": null,
+      "format": "s",
+      "gauge": {
+        "maxValue": 100,
+        "minValue": 0,
+        "show": false,
+        "thresholdLabels": false,
+        "thresholdMarkers": true
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 0,
+        "y": 15
+      },
+      "id": 47,
+      "interval": null,
+      "links": [],
+      "mappingType": 1,
+      "mappingTypes": [
+        {
+          "name": "value to text",
+          "value": 1
+        },
+        {
+          "name": "range to text",
+          "value": 2
+        }
+      ],
+      "maxDataPoints": 100,
+      "nullPointMode": "connected",
+      "nullText": null,
+      "options": {},
+      "pluginVersion": "6.5.3",
+      "postfix": "",
+      "postfixFontSize": "50%",
+      "prefix": "",
+      "prefixFontSize": "50%",
+      "rangeMaps": [
+        {
+          "from": "null",
+          "text": "N/A",
+          "to": "null"
+        }
+      ],
+      "sparkline": {
+        "fillColor": "rgba(31, 118, 189, 0.18)",
+        "full": false,
+        "lineColor": "rgb(31, 120, 193)",
+        "show": false,
+        "ymax": null,
+        "ymin": null
+      },
+      "tableColumn": "",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "Uptime"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": "",
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "SVR GNH UPTIME",
+      "type": "singlestat",
+      "valueFontSize": "80%",
+      "valueMaps": [
+        {
+          "op": "=",
+          "text": "N/A",
+          "value": "null"
+        }
+      ],
+      "valueName": "current"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 3,
+        "y": 15
+      },
+      "id": 49,
+      "options": {
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ],
+            "unit": "percent"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "auto",
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "CPU utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "CPU EM USO",
+      "type": "gauge"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 6,
+        "y": 15
+      },
+      "id": 50,
+      "options": {
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ],
+            "unit": "percent"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "auto",
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "Physical Memory: Memory utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "RAM EM USO",
+      "type": "gauge"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 9,
+        "y": 15
+      },
+      "id": 51,
+      "options": {
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ],
+            "unit": "percent"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "auto",
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "C:\\ Label:  Serial Number 186b7a70: Space utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "C: UTILIZAÇÃO",
+      "type": "gauge"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 12,
+        "y": 15
+      },
+      "id": 54,
+      "options": {
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ],
+            "unit": "percent"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "auto",
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "M:\\ Label:DADOS  Serial Number 2439aa5a: Space utilization"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "M: UTILIZAÇÃO",
+      "type": "gauge"
+    },
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 3,
+        "x": 15,
+        "y": 15
+      },
+      "id": 48,
+      "links": [],
+      "options": {
+        "displayMode": "gradient",
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "decimals": 0,
+            "mappings": [],
+            "max": 24,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "dark-red",
+                "value": 15
+              }
+            ],
+            "unit": "decbytes"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "vertical"
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "RAM USO"
+              ],
+              "text": "setAlias(RAM USO)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "Physical Memory: Used memory"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "RAM TOTAL"
+              ],
+              "text": "setAlias(RAM TOTAL)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "Physical Memory: Total memory"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "D",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "",
+      "type": "bargauge"
+    },
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "gridPos": {
+        "h": 5,
+        "w": 6,
+        "x": 18,
+        "y": 15
+      },
+      "id": 53,
+      "links": [],
+      "options": {
+        "displayMode": "gradient",
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "decimals": 0,
+            "mappings": [],
+            "max": 1000,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "dark-red",
+                "value": 800
+              }
+            ],
+            "unit": "decbytes"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "vertical"
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "C: USO"
+              ],
+              "text": "setAlias(C: USO)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "C:\\ Label:  Serial Number 186b7a70: Used space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "C: TOTAL"
+              ],
+              "text": "setAlias(C: TOTAL)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "C:\\ Label:  Serial Number 186b7a70: Total space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "D",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "M: USO"
+              ],
+              "text": "setAlias(M: USO)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "M:\\ Label:DADOS  Serial Number 2439aa5a: Used space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "B",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [
+            {
+              "def": {
+                "category": "Alias",
+                "defaultParams": [],
+                "name": "setAlias",
+                "params": [
+                  {
+                    "name": "alias",
+                    "type": "string"
+                  }
+                ]
+              },
+              "params": [
+                "M: TOTAL"
+              ],
+              "text": "setAlias(M: TOTAL)"
+            }
+          ],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "SVR-GNH"
+          },
+          "item": {
+            "filter": "M:\\ Label:DADOS  Serial Number 2439aa5a: Total space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "C",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "",
+      "type": "bargauge"
+    },
+    {
+      "ackEventColor": "rgb(56, 219, 156)",
+      "ageField": false,
+      "customLastChangeFormat": false,
+      "datasource": null,
+      "descriptionAtNewLine": false,
+      "descriptionField": true,
+      "fontSize": "90%",
+      "gridPos": {
+        "h": 6,
+        "w": 5,
+        "x": 0,
+        "y": 20
+      },
+      "highlightBackground": true,
+      "highlightNewEvents": false,
+      "highlightNewerThan": "1h",
+      "hostField": true,
+      "hostGroups": false,
+      "hostProxy": false,
+      "hostTechNameField": false,
+      "hostsInMaintenance": true,
+      "id": 12,
+      "lastChangeFormat": "",
+      "layout": "list",
+      "limit": 100,
+      "markAckEvents": false,
+      "okEventColor": "rgb(56, 189, 113)",
+      "options": {},
+      "pageSize": 10,
+      "pluginVersion": "6.5.3",
+      "problemTimeline": true,
+      "resizedColumns": [],
+      "schemaVersion": 7,
+      "severityField": true,
+      "showEvents": {
+        "text": "Problems",
+        "value": 1
+      },
+      "showTags": false,
+      "showTriggers": "all triggers",
+      "sortTriggersBy": {
+        "text": "last change",
+        "value": "lastchange"
+      },
+      "statusField": true,
+      "statusIcon": true,
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": "Zabbix",
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "refId": "A",
+          "tags": {
+            "filter": ""
+          },
+          "trigger": {
+            "filter": ""
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "ALERTAS",
+      "triggerSeverity": [
+        {
+          "color": "rgb(108, 108, 108)",
+          "priority": 0,
+          "severity": "Not classified",
+          "show": true
+        },
+        {
+          "color": "rgb(120, 158, 183)",
+          "priority": 1,
+          "severity": "Information",
+          "show": true
+        },
+        {
+          "color": "rgb(175, 180, 36)",
+          "priority": 2,
+          "severity": "Warning",
+          "show": true
+        },
+        {
+          "color": "rgb(255, 137, 30)",
+          "priority": 3,
+          "severity": "Average",
+          "show": true
+        },
+        {
+          "color": "rgb(255, 101, 72)",
+          "priority": 4,
+          "severity": "High",
+          "show": true
+        },
+        {
+          "color": "rgb(215, 0, 0)",
+          "priority": 5,
+          "severity": "Disaster",
+          "show": true
+        }
+      ],
+      "type": "alexanderzobnin-zabbix-triggers-panel"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 6,
+        "w": 7,
+        "x": 5,
+        "y": 20
+      },
+      "id": 29,
+      "options": {
+        "displayMode": "gradient",
+        "fieldOptions": {
+          "calcs": [
+            "last"
+          ],
+          "defaults": {
+            "decimals": 0,
+            "mappings": [],
+            "max": 100,
+            "min": 0,
+            "thresholds": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ],
+            "unit": "decbytes"
+          },
+          "override": {},
+          "values": false
+        },
+        "orientation": "horizontal"
+      },
+      "pluginVersion": "6.5.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "Zabbix servers"
+          },
+          "host": {
+            "filter": "Zabbix server"
+          },
+          "item": {
+            "filter": "/: Used space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "Zabbix servers"
+          },
+          "host": {
+            "filter": "Zabbix server"
+          },
+          "item": {
+            "filter": "/: Total space"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "B",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "ZABBIX ",
+      "type": "bargauge"
+    },
+    {
+      "aliasColors": {},
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fill": 10,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 12,
+        "y": 20
+      },
+      "hiddenSeries": false,
+      "id": 15,
+      "legend": {
+        "avg": false,
+        "current": false,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": false
+      },
+      "lines": true,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-CR"
+          },
+          "item": {
+            "filter": "Interface ether1(SPEEDNETCR): Tráf. Entrada"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        },
+        {
+          "application": {
+            "filter": ""
+          },
+          "functions": [],
+          "group": {
+            "filter": "PETROLEO"
+          },
+          "host": {
+            "filter": "RB-PET-CR"
+          },
+          "item": {
+            "filter": "Interface ether1(SPEEDNETCR): Tráf. Saída"
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "B",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "thresholds": [],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "TRÁFEGO LINK PETROLEO COSTA RICA",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "bps",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "bps",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    }
+  ],
+  "refresh": "30s",
+  "schemaVersion": 21,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ]
+  },
+  "timezone": "browser",
+  "title": "PETROLEO",
+  "uid": "CcX0vNjZz",
+  "version": 22
+}
